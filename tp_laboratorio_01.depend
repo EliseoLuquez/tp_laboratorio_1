@@ -10,3 +10,15 @@
 
 1536116171 c:\users\eli\documents\utn\tp_laboratorio_01\luquez.h
 
+1536276613 source:d:\luquez\tp_laboratorio_1\luquez.c
+	"Luquez.h"
+	<stdio.h>
+	<stdlib.h>
+
+1536275731 d:\luquez\tp_laboratorio_1\luquez.h
+
+1536275868 source:d:\luquez\tp_laboratorio_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Luquez.h"
+

@@ -1,5 +1,6 @@
 # include  "Luquez.h"
 # include  <stdio.h>
+# include <stdlib.h>
 
 /** \brief Suma de dos operandos
  *
@@ -67,17 +68,14 @@ float division(float a, float b)
 int factorial (int numero)
 {
     int fact = 1;
+    int i;
     if(numero==0)
     {
         return 1;
     }
-    else if(numero<0)
-    {
-        return 0;
-    }
     else
     {
-        for(int i=1;i<=numero;i++)
+        for(i=1;i<=numero;i++)
         {
              fact*=i;
         }

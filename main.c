@@ -58,6 +58,7 @@ int main()
                 case 3:
                         if(flagA!=1)
                         {
+                            system("cls");
                             printf("Debe ingresar operando A\n");
                             printf("1. Ingresar 1er operando (A=x)\n");
                             fflush(stdin);
@@ -66,6 +67,7 @@ int main()
                         }
                         if(flagB!=1)
                         {
+                            system("cls");
                             printf("Debe ingresar operando B\n");
                             printf("2. Ingresar 2do operando (B=y)\n)");
                             fflush(stdin);
@@ -85,8 +87,27 @@ int main()
                         break;
 
                 case 4:
+                        if(flagA!=1)
+                        {
+                            system("cls");
+                            printf("Debe ingresar operando A\n");
+                            printf("1. Ingresar 1er operando (A=x)\n");
+                            fflush(stdin);
+                            scanf("%f", &x);
+                            flagA=1;
+                        }
+                        if(flagB!=1)
+                        {
+                            system("cls");
+                            printf("Debe ingresar operando B\n");
+                            printf("2. Ingresar 2do operando (B=y)\n)");
+                            fflush(stdin);
+                            scanf("%f", &y);
+                            flagB=1;
+                        }
                         if(flag3!=1)
                         {
+                            system("cls");
                             printf("Primero debe hacer los calculos con la opcion 3\n");
                             system("pause");
                         }
@@ -109,7 +130,7 @@ int main()
                         }
                         printf("\nEl resultado de A*B es: %.2f", multiplicacion(x, y));
                         printf("\nEl factorial de A es: %d", factorial(x));
-                        printf("\nEl factorial de B es: %d\n\n", factorial(y));
+                        printf("\nEl facto4rial de B es: %d\n\n", factorial(y));
                         system("pause");
                         break;
                 case 5:
